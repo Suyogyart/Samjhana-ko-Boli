@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_launch_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.suyogyart.android.samjhanakoboli.LaunchScreenActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ashma_bw"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/samjhana"
+        android:layout_alignParentBottom="true"
+        android:tint="#f4f7ff"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Samjhana ko Boli"
+        android:textSize="64sp"
+        android:textColor="#FFF"
+        android:shadowColor="#000"
+        android:shadowRadius="10"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Proceed"
+        android:textSize="20sp"
+        android:alpha="0.8"
+        android:textColor="#FFF"
+        android:background="#000"
+        android:padding="30sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
